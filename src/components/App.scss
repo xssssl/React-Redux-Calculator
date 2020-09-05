@@ -1,0 +1,143 @@
+.branding {
+	margin: 0 0 0 15px;
+	float: left;
+	width: 130px;
+	height: 40px;
+}
+
+.solarlabel {
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.branding {
+	font-family: 'Damion';
+	font-size: 18px;
+}
+
+.logo {
+	position: relative;
+	top: 4px;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: yellow;
+	border-radius: 50%;
+	border: 2px solid #000;
+}
+
+.logoRed {
+	background: #d11;
+	width: 100%;
+	height: 9px;
+	margin-top: 9px;
+	border-bottom-left-radius: 9px;
+	border-bottom-right-radius: 9px;
+}
+
+#calcmain {
+	height: 440px;
+	width: 260px;
+	margin: 0 auto;
+	padding: 20px;
+	margin-top: 0px;
+	background: #ddd;
+	border-top-left-radius: 50% 5%;
+	border-top-right-radius: 50% 5%;
+	border-bottom-left-radius: 50% 5%;
+	border-bottom-right-radius: 50% 5%;
+	box-shadow: 5px 5px 25px #000;
+	box-shadow: inset -4px 0px 9px #555,
+				inset 4px -3px 9px #555,
+				5px 5px 15px #000;
+	border: 2px solid #555;
+}
+
+@mixin displayPanel-text {
+  display: inline-block;
+	width: 100%;
+	font-family: Courier;
+  text-align: right;
+  vertical-align: top;
+}
+
+#formula {
+  @include displayPanel-text;
+	margin-top: -15px;
+	font-size: 19px;
+	color: Maroon;
+}
+
+#display {
+  @include displayPanel-text;
+	margin-top: -10px;
+	font-size: 38px;
+	color: #555;
+}
+
+#screen {
+	width: 230px;
+	height: 65px;
+	margin: 10px auto;
+	padding: 5px;
+	background: #abbdaa;
+	box-shadow: inset 0 -3px 5px #6b6d6a;
+	border-radius: 4px;
+}
+
+#solar {
+	height: 40px;
+	width: 100px;
+	background: #533;
+	margin: 10px 0 0 150px;
+	box-shadow: inset 0 -2px 3px #000;
+	border-radius: 3px;
+}
+
+.panel {
+	float: left;
+	margin-top: 5px;
+	height: 30px;
+	width: 33%;
+}
+.grid {
+	border-right: 1px solid #422;
+}
+
+.calcbutton {
+	background: midnightblue;
+	color: white;
+	float: left;
+	height: 25px;
+	width: 40px;
+	margin: 8px;
+	margin-bottom: 4px;
+	padding-top: 10px;
+	border: 4px solid #334;
+	border-top-left-radius: 50% 5px;
+	border-top-right-radius: 50% 5px;
+	border-bottom-left-radius: 50% 5px;
+	border-bottom-right-radius: 50% 5px;
+	box-shadow: 0px 4px 6px #111,
+              3px 4px 2px #aaa;
+	text-align: center;
+}
+
+.add {
+	height: 55px;
+	padding-top: 35px;
+}
+
+.clear {
+	background: #a22;
+	border: 4px solid #711;
+}
+
+.bottomrow {
+	margin-top: -46px;
+}
+
+.clearfloat {
+	clear: both;
+}
