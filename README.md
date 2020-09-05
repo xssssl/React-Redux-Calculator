@@ -9,10 +9,12 @@ This application is the practice of the freeCodeCamp Front End Libraries Certifi
 It's allowed to use any mix of stacks to pass the freeCodeCamp project review. In order to properly practice and demonstrate the front end libraries I learn, all the stacks listed below are applied in this project.
 * React
 * Redux
+* HTML5
 * Sass/SCSS
 
 ## Functions
 The application is a JavaScript calculator who utilizes [**formula logic**](https://en.wikipedia.org/wiki/Calculator_input_methods). 
+
 ![application screenshot](https://github.com/xssssl/React-Redux-Calculator/blob/master/screenshots/composite.png)
 
 ## How to run
